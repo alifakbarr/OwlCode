@@ -1,0 +1,358 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=====================================================*/
+
+
+.header {
+	position: fixed;
+	width: 100%;
+	height: 110px;
+	background-color: #092C52;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	z-index: 9999;
+	top: 0;
+}
+.header .top-bar {
+	padding-bottom:10px; 
+	border-bottom: 2px solid black;
+}
+.header .top-bar img {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 40px;
+	width: 200px;
+}
+
+.header .top-bar .search{
+	border-radius: 5px;
+}
+
+.header .nav-bar{
+	margin: 5px;
+	margin-left: 40px;
+}
+.header .nav-bar a:link{
+	text-decoration: none;
+	color: white;
+}
+.header .nav-bar a:hover{
+	text-decoration: none;
+	color: blue;
+}
+.header .nav-bar a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+.header .nav-bar ul li{
+	display: inline-block;
+	margin: 5px;
+}
+
+.banner{
+	margin-top: 110px;
+	height: 370px;
+	background-image: url(img/banner.jpg);
+	background-size: cover;
+	
+}
+
+.container-utama{
+	width: 1100px;
+	margin: 40px auto;
+}
+
+.kategori{
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.kotak-kategori {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90px;
+	text-align: center;
+	margin-right: 40px;
+}
+
+.kotak-kategori img{
+	width: 50px;
+}
+
+.kotak-kategori a:link{
+	text-decoration: none;
+	color: black;
+}
+
+.kotak-kategori a:hover{
+	text-decoration: none;
+	color: blue;
+}
+
+.kotak-kategori a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+.container-satu{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+h3{
+	margin-top: 50px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.card{
+	padding-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 150px;
+	text-align: center;
+	margin: 10px 25px;
+	justify-content: space-evenly;
+}
+
+.card .gambar img{
+	width: 100px;
+}
+
+.card .merk a:visited{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+}
+
+.card .merk {
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+.card .harga p{
+	text-align: left;
+	color: #2F78CF;
+	font-weight: bold;
+	padding: 5px;
+	font-family: arial;
+}
+
+.card button{
+	color: #363637;
+	font-weight: bold;
+}
+/*=================================*/
+
+.promosi{
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.promosi img{
+
+	width: 250px;
+}
+/*=================================*/
+.desc{
+	margin: 70px auto;
+	width: 1100px;
+}
+
+.desc .judul {
+	font-weight: bold;
+	margin-bottom: 2px;
+	color: black;
+}
+
+.desc p{
+	padding left: 0;
+	color: #6C6C6D;
+	margin: 6px;
+}
+/*=================================*/
+
+.footer{
+	border-top: 1px solid #EFF0F2;
+	width: 100%;
+	padding: 80px;
+	height: 400px;
+	background-color: #F9FAFA;
+	display: flex;
+}
+
+/*=================================*/
+
+.footer .aplikasi {
+	flex-grow: 1;
+}
+.footer .aplikasi h5{
+	font-weight: bold;
+	font-size: 17px;
+	padding: 5px;
+}
+
+.footer .aplikasi .medsos{
+	font-weight: bold;
+	font-size: 13px;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+
+.footer .aplikasi img{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	width: 130px;
+
+}
+
+.footer .aplikasi  .medsos img{
+	padding: 5px;
+	width: 22px;
+	
+}
+
+.footer .aplikasi  .medsos {
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+/*===============================*/
+
+.footer .bhinneka {
+	flex-grow: 1;
+}
+.footer .bhinneka h5{
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+
+.footer .bhinneka a{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.footer .bhinneka a:visited{
+	text-decoration: none;
+	color: #a2a2a5;
+}
+
+/*=================================*/
+
+.footer .info {
+	flex-grow: 1;
+}
+.footer .info h5{
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+
+.footer .info a{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.footer .info a:visited{
+	text-decoration: none;
+	color: #a2a2a5;
+}
+
+/*==================================*/
+
+.footer .contact {
+	flex-grow: 1;
+}
+.footer .contact h5{
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+
+
+.footer .contact img{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	width: 20px;
+}
+
+.footer .contact .keamanan h5{
+	margin-top: 20px;
+}
+
+.footer .contact .keamanan img{
+	width: 130px;
+}
+
+/*===================================*/
+
+.container-dua .copyright {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-top: -150px;
+	justify-content: center;
+}
+
+.container-dua .copyright p{
+	margin-top: 20px;
+	color: #a2a2a5;
+	text-align: center;
+	font-size: 13px;
+}

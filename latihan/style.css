@@ -1,0 +1,59 @@
+.container{
+	background-color: lightblue;
+}
+
+.header{
+	background-color: salmon;
+	margin: 1%;
+	padding: 1%;
+}
+.header h1{
+	text-align: center;
+}
+.navigasi {
+	margin: 1%;
+	padding: 1%;
+	background-color: green;
+}
+.navigasi p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.content1{
+	background-color: blue;
+	float: left;
+	margin: 1%;
+	width: 70%;
+
+	padding: 1%;
+	
+}
+.main1 {
+	background-color: yellow;
+	margin: 1%;
+}
+.content2{
+	float: right;
+	padding: 1%;
+	margin: 1%;
+	width: 20%;
+	background-color: pink;
+} 
+	
+.main2 {
+	background-color: yellow;
+}
+
+.main3 {
+	background-color: yellow;
+}
+.footer {
+	background-color: purple;
+	height: 100px;
+}
+
+.cntn {
+	height: 600px;
+	background-color: aqua;
+}

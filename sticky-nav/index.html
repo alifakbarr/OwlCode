@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sticky Nav</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>
+	<a href="#" class="logo">Logo</a>
+	<ul>
+		<li><a href="">Home</a></li>
+		<li><a href="">Gallery</a></li>
+		<li><a href="">About</a></li>
+		<li><a href="">Contact</a></li>
+	</ul>
+</header>
+<section class="banner"></section>
+<script type="text/javascript">
+	window.addEventListener("scroll",function () {
+		var header = document.querySelector("header");
+		header.classList.toggle("sticky", window.scrollY > 0);
+	})
+</script>
+</body>
+</html>

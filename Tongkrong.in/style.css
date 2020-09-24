@@ -1,0 +1,110 @@
+
+body{
+	font-size: 18px;
+	background-color: #f4f4f4;
+}
+
+/*=============navbar==========*/
+.navbar{
+	order: 1;
+}
+.navbar .navbar-brand{
+	font-size: 2em;
+}
+
+.navbar a{
+	font-weight: bold;
+	margin: 0 10px;
+
+}
+
+.navbar img{
+	width: 55px;
+}
+
+/*==========carousel=============*/
+
+.carousel-item{
+	order: 2;
+	border-bottom: 5px solid #894b00;
+}
+.carousel-item .display-4{
+	margin-top: -390px;
+}
+
+.carousel-caption .display-4{
+	font-weight:bold;
+}
+
+.carousel-caption .bgtulis{
+	background-color: rgba(0,0,0,0.8);
+	padding-bottom: 20px; 
+}
+
+
+.carousel-caption p{
+	font-size: 	1.2em;
+}
+
+.carousel-caption hr{
+	border-color:white;
+	width: 15%;
+	border:1px solid white;
+}
+
+.carousel-item button{
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+/*container-fluid*/
+.container-fluid{
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.container-fluid .about img{
+	width: 35px;
+	margin: 0 5px;
+	margin-top:-15px;
+
+}
+
+.container-fluid .row img{
+	height: 200px;
+}
+
+.container-fluid .row .card {
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	width: 100%;
+}
+
+
+
+
+
+/*footer*/
+.footer{
+	width: 100%;
+	background-color: #6bb0ff;
+	padding: 20px;
+	border-top: 2px solid #092c52;
+	text-align: center;
+}
+
+.footer p{
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.footer hr{
+	border :1px solid black;
+	width: 15%;
+}
+
+.footer img{
+	width: 20px;
+	margin: 0 5px;
+}

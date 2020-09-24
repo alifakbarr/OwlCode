@@ -1,0 +1,19 @@
+.container{
+	width: 30%;
+	margin-top: 9%;
+	box-shadow: 3px 3px 20px rgba(0,0,0, 0.3);
+	padding: 30px;
+}
+
+hr{
+	width: 50%;
+	border-color: lightgreen;
+	border-width: 3px;
+}
+
+.tombol{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5px;
+
+}
